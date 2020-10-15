@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <Head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("#subject").click(function(){
+                    $("#panel").slideToggle("slow");
+                });
+            });
+            $(document).ready(function(){
+                $("#subject2").click(function(){
+                    $("#panel2").slideToggle("slow");
+                });
+            });
+        </script>
+
+
+
+        <style>
+            #panel, #subject, #panel2, #subject2 {
+            padding: 5px;
+            text-align: center;
+            background-color: grey;
+            border: solid 1px #c3c3c3;
+            }           
+
+            #panel, #panel2 {
+            padding: 25px;
+            display: none;
+            }
+            body{
+                background-color: rgb(236, 232, 232);
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                color: black;
+                margin-bottom: 50px;
+            }
+           
+        </style>
+
+            
+    </Head>
+
+        
+    <body>
+        <h1>
+            Thomas Boes' portfolio website<br>
+
+        </h1>
+        <p1>
+            <div id="subject">Resume</div>
+            <div id="panel"><a href="url">https://docs.google.com/document/d/15xLg0KL_TarYnSrjLXq6mtd2J7FOokJmWC03dqbYyc4/edit?usp=sharing</a> </div>
+        </p1>
+        <br>
+        <p2>
+            <div id="subject2">Github and Repl.it</div>
+            <div id="panel2"><a href="url">https://github.com/ThmsBs/portfolio_site</a> <br><a href="url">https://repl.it/@TBBOES01</a> </div>
+        </p2>
+
+    </body>
+
+</html>
